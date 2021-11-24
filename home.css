@@ -1,0 +1,118 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  /* background-image: url("media/bg7.jpeg"); */
+  background-image: linear-gradient(to bottom right, rgb(7, 5, 128), green);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  background-position: center;
+  height: 100%;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.ul-pic {
+  list-style-type: none;
+  float: left;
+  background-color: black;
+  padding: 22px 15px;
+  /* border-radius: 500%; */
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 30px;
+  padding: 0px 30px;
+  font-family: "Lucida Handwriting", cursive;
+  color: white;
+}
+
+li {
+  float: right;
+}
+
+.a-navbar {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: "Papyrus", fantasy;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.a-navbar:hover {
+  color: rgb(122, 33, 150);
+}
+
+.active {
+  color: darkorchid;
+}
+
+.area-2{
+    background-image: linear-gradient(to top right, green, darkblue);
+    /* background-image: url('media/marshmallow.jpg'); */
+    height: 500px;
+    margin: 50px;
+    margin-top: 50px;
+}
+
+.head-eng{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 150px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 80px;
+    color: white
+}
+
+.pic-eng{
+    height: 500px;
+    width: 1600px;
+    /* margin-top: 115px;
+    margin-left: 1000px; */
+    /* border: 2px solid black; */
+    /* border-radius: 20px; */
+    /* transition: transform .3s; */
+}
+
+
+.b1{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 200px;
+    padding: 10px 45px;
+    border-radius: 50px;
+    border: none;
+    font-size: 28px;
+    background-color: midnightblue;
+    color: white;
+    font-family: "Papyrus";
+    transition: transform 0.3s;
+}
+
+.b1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.b1:hover, .b1 a:hover{
+    transform: scale(1.3);
+}
