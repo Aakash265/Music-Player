@@ -78,8 +78,8 @@ body {
   /* border-radius: 500%; */
   float: right;
   position: absolute;
-  bottom: 20%;
-  right: 10%;
+  margin-top: 60px;
+  margin-left: 600px;
   transition: transform .3s;
 }
 
@@ -135,6 +135,7 @@ body {
   margin-top: 600px;
   height: 500px;
   background-color: white;
+  border-radius: 50px;
   background-position-x: center;
   margin-left: 45px;
   margin-right: 45px;
@@ -193,15 +194,15 @@ body {
 }
 
 .text-i-1{
-  margin-left: 230px;
+  margin-left: 155px;
 }
 
 .text-i-2{
-  margin-left: 100px;
+  margin-left: 80px;
 }
 
 .text-i-3{
-  margin-left: 185px;
+  margin-left: 175px;
 }
 
 
@@ -220,18 +221,14 @@ body {
   color: white;
   font-size: 48px;
   position: absolute;
-  left: 39%;
-  margin-top: 195px;
+  left: 36%;
+  margin-top: 190px;
 }
 
-/* .GS2{
-  position: absolute;
-  left: 48%;
-} */
 
 .b2{
   position: absolute;
-  left: 46%;
+  left: 44%;
   margin-top: 400px;
   padding: 3px 35px;
   text-align: center;
@@ -265,6 +262,7 @@ body {
 
 #area-4{
   background-image: linear-gradient(to bottom left, wheat, aliceblue);
+  border-radius: 50px;
   margin-top: 100px;
   height: 500px;
   background-position-x: center;
@@ -321,7 +319,7 @@ body {
 .footer-text-1{
   color: white;
   list-style-type: none;
-  position:absolute;
+  position: absolute;
   margin-top: 30px;
   left: 500px;
   font-family: "Papyrus", fantasy;
@@ -340,7 +338,7 @@ body {
 .footer-text-2{
   color: white;
   list-style-type: none;
-  position:absolute;
+  position: absolute;
   margin-top: 30px;
   left: 900px;
   font-family: "Papyrus", fantasy;
@@ -355,4 +353,4 @@ body {
   margin-top: 75px;
   font-size: 40px;
 }
-/* https://source.unsplash.com/1600x700/?music,%20iphone */
+
