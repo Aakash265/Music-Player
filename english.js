@@ -1,7 +1,7 @@
 // Songs
 // Havana
 
-let audioelement1 = new Audio("media/Havana.mp3");
+let audioelement1 = new Audio("media/Fairytale.mp3");
 let masterPlay = document.getElementById("masterPlay");
 let progressBar = document.getElementById("progressBar");
 
@@ -97,7 +97,7 @@ progressBar3.addEventListener("change", () => {
 
 // Closer
 
-let audioelement4 = new Audio("media/Closer.mp3");
+let audioelement4 = new Audio("media/Umbrella.mp3");
 let masterPlay4 = document.getElementById("masterPlay4");
 let progressBar4 = document.getElementById("progressBar4");
 

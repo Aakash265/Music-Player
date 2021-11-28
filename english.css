@@ -9,7 +9,7 @@ html {
 body {
   /* background-color: white; */
   /* background-image: url("media/bg7.jpeg"); */
-  background-image: linear-gradient(to bottom right, magenta, blue, gold);
+  background-image: linear-gradient(to bottom right, magenta, blue, darkorange);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: top;
@@ -98,7 +98,7 @@ li {
   font-family: "Papyrus", fantasy;
   font-weight: bold;
   font-size: 22px;
-  margin-left: 120px;
+  margin-left: 65px;
   display: flex;
   width: 300px;
 }
@@ -180,7 +180,7 @@ li {
   position: sticky;
   height: 20px;
   width: 200px;
-  background-image: linear-gradient(to bottom right, blue, yellow);
+  background-image: linear-gradient(to bottom right, blue, darkorange);
   color: white;
   padding: 40px;
   text-align: center;
@@ -247,7 +247,7 @@ li {
   font-family: "Papyrus", fantasy;
   font-weight: bold;
   font-size: 22px;
-  margin-left: 157px;
+  margin-left: 75px;
   display: flex;
   width: 300px;
 }
@@ -256,7 +256,7 @@ li {
   position: sticky;
   height: 20px;
   width: 200px;
-  background-image: linear-gradient(to bottom right, blue, yellow);
+  background-image: linear-gradient(to bottom right, darkorange, blue);
   color: white;
   padding: 40px;
   text-align: center;
